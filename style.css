@@ -1,0 +1,211 @@
+body{
+    background-image: url('bck.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.overall-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.profilecard-container{
+    width: 65%;
+    display: flex;
+    border-radius: 20px;
+    background-image: url('unik.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: 40% 1% auto;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 4px 19px 40px;
+}
+.profilecard-container:hover{
+    transform: scale(1.05);
+    transition: 2.9s;
+}
+
+#time{
+    display: block;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+}
+
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+h1:hover{
+    transform: scale(1.2);
+    transition: 2.9s;
+}
+
+h2{
+    color:rgba(32, 30, 30, 0.527);
+    text-align: center;
+    
+}
+
+h2:hover{
+    transform: scale(1.2);
+    transition: 2.9s;
+}
+
+#column2{
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+h3{
+    font-size: 17px;
+    text-align: left;
+    padding-right: 15px;
+    color: rgb(34, 31, 31);
+}
+
+
+h4{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(34, 31, 31);
+    padding-right:70px;
+}
+
+h4:hover{
+    transform: scale(1.2);
+}
+
+h5{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(34, 31, 31);
+    padding-right:25px;
+}
+
+h5:hover{
+    transform: scale(1.2);
+}
+
+i{
+    width:40px;
+}
+i:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 767px){
+    .profilecard-container{
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    i{
+        margin-left:50px;
+        display: flex;
+        padding-top: 20px;
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    h1{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    h4{
+        font-size:14px;
+        padding-right: 40px;
+    }
+    h5{
+        font-size: 14px;
+        padding-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 767px)and (max-width:1024px){
+    .profilecard-container{
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    i{
+      margin-left:40px;
+      display: flex;
+      padding-top: 30px;
+    }
+
+    h3{
+      justify-content: center;
+      align-items: center;
+    }
+
+    img{
+        display: flex;
+        margin-right: 8%;
+    }
+    
+    h1{
+        padding-top: 30px;
+      
+    }
+    h2{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 1025px){
+    .profilecard-container{
+        display: flex;
+        margin-bottom: 60px;
+       
+    }
+
+    i{
+      margin-left:90px;
+      display: flex;
+      padding-top: 30px;
+    }
+
+    img{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+
+}
